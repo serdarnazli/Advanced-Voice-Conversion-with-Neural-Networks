@@ -4,7 +4,7 @@
 
 ### On development...
 
-This repository contains the project proposal and related materials for the YZV302E Deep Learning course. The project focuses on developing an advanced voice conversion system using deep learning techniques.
+This repository will contain the project files. The project focuses on developing an advanced voice conversion system using deep learning techniques.
 
 ## Table of Contents
 - [Project Description](#project-description)
