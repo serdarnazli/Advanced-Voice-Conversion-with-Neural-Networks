@@ -1,29 +1,28 @@
-# Advanced Voice Conversion with Neural Networks
+# Voice Conversion Project
 
-## YZV302 Deep Learning - Project
+## Overview
+This project is dedicated to developing advanced voice conversion technology using deep learning techniques. Our aim is to transform diverse voice inputs into a single, consistent target voice while preserving the original speech's nuances.
 
-### On development...
+## Getting Started
 
-This repository will contain the project files. The project focuses on developing an advanced voice conversion system using deep learning techniques.
+### Prerequisites
+- Google Colab account
+- Access to Google Drive
 
-## Table of Contents
-- [Project Description](#project-description)
-- [Problem Definition](#problem-definition)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-- [Will be updated further...]
-## Project Description
+### Installation and Usage
+1. **Google Colab/Drive Setup**: This project is implemented and executed using Google Colab and Google Drive. Ensure you have access to these services.
 
-This project aims to create a sophisticated voice conversion system using deep learning, with a focus on transforming the voice characteristics from various speakers into the voice of a single, well-known individual. The project explores the nuances of voice identity, contributing to the field of digital audio processing.
+2. **Accessing the Notebooks**:
+   - `main.ipynb` is the primary notebook for the project, featuring the successful implementation of our voice conversion model.
+   - `failed_example.ipynb` provides insights into our initial approach, which was later revised due to its limitations.
 
-## Problem Definition
+3. **Data and Pre-trained Models**:
+   - Links to download necessary data and our pre-trained models are included within `main.ipynb`. Follow the instructions in the notebook for setup.
+   - You also have the option to download data directly from YouTube for training. Instructions for this process are provided in the notebook.
 
-The project addresses the challenges in voice conversion, aiming to transform varied voice inputs into a single, consistent target voice. It builds on existing works in the field and integrates advanced deep learning techniques to achieve more nuanced and authentic voice conversion.
+## Project Structure
+- `main.ipynb`: The main Jupyter notebook with the implementation of the voice conversion model.
+- `failed_example.ipynb`: A Jupyter notebook documenting our initial, unsuccessful approach.
 
-## Dataset
-
-The project utilizes a carefully curated dataset from YouTube, focusing on a specific individual known for their participation in noise-free environments. The dataset consists of clean, high-quality audio recordings, predominantly interviews, lectures, or presentations.
-
-## Methodology
-
-The methodology involves preprocessing voice data, developing a many-to-one voice conversion model, and utilizing cutting-edge deep learning techniques. The core development includes modeling key attributes such as pitch, timbre, and rhythm. Advanced models like VIDS, hn-NSF, and HiFi-GAN are employed for disentanglement, source-filter differentiation, and high-fidelity generation.
+## Usage
+To use the voice conversion process, follow the step-by-step instructions in `main.ipynb`. The notebook guides you through data loading, model execution, and optionally downloading and using data from YouTube.
