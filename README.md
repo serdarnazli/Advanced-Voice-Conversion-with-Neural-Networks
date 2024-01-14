@@ -25,4 +25,7 @@ This project is dedicated to developing advanced voice conversion technology usi
 - `failed_example.ipynb`: A Jupyter notebook documenting our initial, unsuccessful approach.
 
 ## Usage
+# Recommended
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/serdarnazli/YZV302-Term-Project/main.ipynb)
+
 To use the voice conversion process, follow the step-by-step instructions in `main.ipynb`. The notebook guides you through data loading, model execution, and optionally downloading and using data from YouTube.
